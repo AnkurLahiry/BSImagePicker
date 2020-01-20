@@ -122,7 +122,7 @@ public class ImagePickerController: UINavigationController {
     }
 
     func updatedDoneButton() {
-        doneButton.title = assetStore.count > 0 ? "\(NSLocalizedString("BSImagePicker.Done", comment: "Done button title")) (\(assetStore.count))" : NSLocalizedString("BSImagePicker.Done", comment: "Done button title")
+        doneButton.title = assetStore.count > 0 ? "\(NSLocalizedString("Done", comment: "Done button title")) (\(assetStore.count))" : NSLocalizedString("Done", comment: "Done button title")
         doneButton.isEnabled = assetStore.count >= settings.selection.min
     }
 
