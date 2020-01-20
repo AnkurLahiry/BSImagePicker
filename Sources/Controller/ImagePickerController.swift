@@ -28,7 +28,7 @@ public class ImagePickerController: UINavigationController {
     // MARK: Public properties
     public weak var imagePickerDelegate: ImagePickerControllerDelegate?
     public var settings: Settings = Settings()
-    public var doneButton: UIBarButtonItem = UIBarButtonItem(title: NSLocalizedString("BSImagePicker.Done", comment: "Done button title"), style: .done, target: nil, action: nil)
+    public var doneButton: UIBarButtonItem = UIBarButtonItem(title: NSLocalizedString("Done", comment: "Done button title"), style: .done, target: nil, action: nil)
     public var cancelButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: nil, action: nil)
     public var albumButton: UIButton = UIButton(type: .custom)
     public var assetStore: AssetStore = AssetStore(assets: [])
